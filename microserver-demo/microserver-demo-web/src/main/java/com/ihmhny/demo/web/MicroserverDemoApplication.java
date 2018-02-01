@@ -1,12 +1,12 @@
-package com.ihmhny.microserverdemoapi;
+package com.ihmhny.demo.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroserverDemoApiApplication {
+public class MicroserverDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserverDemoApiApplication.class, args);
+		SpringApplication.run(MicroserverDemoApplication.class, args);
 	}
 }
