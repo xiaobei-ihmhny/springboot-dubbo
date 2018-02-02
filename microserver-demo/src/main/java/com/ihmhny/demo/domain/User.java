@@ -1,7 +1,8 @@
-package com.ihmhny.demo.entity;
+package com.ihmhny.demo.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author: xiaobei
@@ -11,11 +12,12 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
-    private Integer id;
+    private Long id;
 
-    private String username;
+    private String name;
 
-    private String password;
+    private Integer age;
 }

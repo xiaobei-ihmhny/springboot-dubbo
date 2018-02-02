@@ -1,10 +1,5 @@
 package com.ihmhny.demo.service;
 
-import com.ihmhny.demo.entity.User;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-
 /**
  * @author xiaobei
  * @class_name UserService
@@ -13,7 +8,4 @@ import org.apache.ibatis.annotations.Select;
  */
 public interface UserService {
 
-    User selectByParams(String username);
-
-    int insertByParams(String name, String password);
 }
