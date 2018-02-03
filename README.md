@@ -1,9 +1,16 @@
 # springboot-dubbo
 利用SpringBoot做微服务，Dubbo做RPC框架，搭建Web应用
 
+- 2018.02.03 更新记录（第二次）
+
+**重点参考了开源项目：https://gitee.com/didispace/SpringBoot-Learning 在此特别致谢！！**
+
+> 1. 开启aop切面对请求日志做统一处理
+> 2. 添加自定义banner
+
 - 2018.02.03 更新记录
 
-**重点参考了博客：http://blog.csdn.net/winter_chen001/article/details/77249029，在此特别致谢！！**
+**重点参考了博客：http://blog.csdn.net/winter_chen001/article/details/77249029  在此特别致谢！！**
 
 > 1. 测试Swagger2支持，简化方便接口编写
 > 2. 测试统一的异常处理类GlobalExceptionHandler和MyException，

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ihmhny</groupId>
-	<artifactId>microserver-demo</artifactId>
+	<artifactId>microserver-pay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microserver-demo</name>
-	<description>microserver-demo project for Spring Boot</description>
+	<name>microserver-pay</name>
+	<description>microserver-pay project for Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -64,12 +64,6 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.2.2</version>
-		</dependency>
-
-		<!-- 引入aop -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 
 		<!--引入mysql-->
