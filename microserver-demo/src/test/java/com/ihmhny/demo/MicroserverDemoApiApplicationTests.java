@@ -1,4 +1,4 @@
-package com.ihmhny.microserverdemoapi;
+package com.ihmhny.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
