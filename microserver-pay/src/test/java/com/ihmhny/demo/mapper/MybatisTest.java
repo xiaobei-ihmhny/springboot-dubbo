@@ -1,6 +1,7 @@
 package com.ihmhny.demo.mapper;
 
-import com.ihmhny.demo.domain.User;
+import com.ihmhny.pay.domain.User;
+import com.ihmhny.pay.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

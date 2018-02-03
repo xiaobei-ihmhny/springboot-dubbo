@@ -1,5 +1,6 @@
 package com.ihmhny.demo.async;
 
+import com.ihmhny.pay.async.Task;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
